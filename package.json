@@ -10,7 +10,7 @@
     "dev": "nodemon ./dist/index.js",
     "lint": "eslint 'src/**/*.{js,ts,tsx}' --fix",
     "format": "prettier --write ./src/*",
-    "prepare": "npm run build"
+    "postinstall": "npm run build"
   },
   "author": "Jose-cd",
   "repository": {
